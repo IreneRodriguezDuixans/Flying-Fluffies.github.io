@@ -1,0 +1,450 @@
+:root {
+  --purple: #a48dac;
+  --light-purple: #d4ccd5;
+  --grey: #d9d9d9;
+  --white: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  /*I searched this one online since I coudn't figure out how to stop the scrolling horizontally*/
+  margin: 0; /* Remove default margins */
+  max-width: 100%; /* Prevent elements from exceeding viewport width */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+.footer {
+  width: 1456px;
+  height: 223px;
+  background-color: var(--purple);
+  position: relative;
+  top: 160px;
+}
+
+.container {
+  background-color: #a48dac;
+  width: 1456px;
+  height: 780px;
+  position: relative;
+  right: 0px;
+  max-width: 1456px;
+}
+.container2 {
+  width: 1456px;
+  height: 5620px;
+  background: #d4ccd5;
+}
+
+.selector {
+  width: 1456px;
+  height: 120px;
+  background: #a48dac;
+  border-top: 12px dashed #fff;
+}
+
+.kavoon-regular {
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 64px;
+}
+
+h2 {
+  color: #d4ccd5;
+  font-family: Kavoon;
+  font-size: 36px;
+}
+
+h3 {
+  color: #d4ccd5;
+  font-family: Kavoon;
+  font-size: 24px;
+}
+h4 {
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 24px;
+  padding: 15px;
+}
+
+h5 {
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 36px;
+}
+
+h6 {
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 90px;
+}
+
+.stars {
+  position: absolute;
+}
+
+.flyingfluffies {
+  position: absolute;
+  right: 550px;
+  top: 200px;
+}
+
+.btn-text1 {
+  position: relative;
+  right: -120px;
+  top: 25px;
+  width: 100px;
+}
+
+.btn-text2 {
+  position: relative;
+  right: -268px;
+  top: 25px;
+  width: 100px;
+}
+
+.btn-text3 {
+  position: relative;
+  right: -452px;
+  top: 25px;
+  width: 200px;
+}
+
+.btn-text5 {
+  position: relative;
+  right: -600px;
+  top: 25px;
+  width: 170px;
+}
+
+.cutie {
+  position: relative;
+  top: 35px;
+  right: -35px;
+}
+
+.title1 {
+  width: 572px;
+  height: 80px;
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  right: -700px;
+  top: -470px;
+  padding: 10px;
+}
+
+.americanbat {
+  width: 158.87px;
+  height: 130.223px;
+  aspect-ratio: 61/50;
+  border-radius: 35px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  position: relative;
+  right: -30px;
+  top: 30px;
+}
+
+.catalonianbat {
+  width: 132.703px;
+  height: 130.246px;
+  aspect-ratio: 54/53;
+  border-radius: 20px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  position: relative;
+  right: -113px;
+  top: 30px;
+}
+
+.conact1 {
+  width: 608.363px;
+  height: 60px;
+  color: #fff;
+  font-family: Kavoon;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  right: -713px;
+  top: -80px;
+}
+
+.title2 {
+  position: relative;
+  right: -50px;
+  top: -80px;
+  padding: 10px;
+}
+.subtitle1 {
+  position: relative;
+  right: -50px;
+  top: -60px;
+  padding: 20px;
+}
+
+.text2 {
+  position: relative;
+  right: -30px;
+  top: -80px;
+  margin-right: 20px;
+  padding-right: 30px;
+}
+
+.title3 {
+  position: relative;
+  right: -50px;
+  top: -40px;
+  padding: 10px;
+}
+
+.title4 {
+  position: relative;
+  right: -50px;
+  top: -20px;
+  padding: 10px;
+}
+
+.title5 {
+  position: relative;
+  right: -50px;
+  padding: 10px;
+}
+.blooddrinker {
+  position: relative;
+  top: 10px;
+  right: -35px;
+}
+
+.text3 {
+  width: 672px;
+  height: 80px;
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  right: -600px;
+  top: -420px;
+  padding: 20px;
+}
+
+.text4 {
+  width: 672px;
+  height: 80px;
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  right: -600px;
+  top: -380px;
+  padding: 20px;
+}
+.welcome {
+  width: 572px;
+  height: 80px;
+  color: #a48dac;
+  font-family: Kavoon;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  right: -700px;
+  top: -450px;
+  padding: 10px;
+}
+
+.Card-Wrapper2 {
+  padding: 20px 18px;
+  display: inline-block;
+  border-radius: 40px;
+  background: #a48dac;
+  position: relative;
+  right: -700px;
+  top: -240px;
+}
+.Card-Wrapper1 {
+  padding: 20px 18px;
+  display: inline-block;
+  border-radius: 40px;
+  background: #a48dac;
+  position: relative;
+  right: -800px;
+  top: -240px;
+}
+
+.warning {
+  position: relative;
+  top: -80px;
+  right: -45px;
+  padding-right: 50px;
+}
+
+.batmug {
+  position: relative;
+  right: -45px;
+}
+
+.plushie {
+  position: relative;
+  right: -45px;
+  top: 60px;
+}
+
+.dog {
+  position: relative;
+  right: -45px;
+  top: 120px;
+}
+
+.btn-text1:hover {
+  background-color: var(--light-purple);
+  border-radius: 22px;
+}
+.btn-text2:hover {
+  background-color: var(--light-purple);
+  border-radius: 22px;
+}
+.btn-text3:hover {
+  background-color: var(--light-purple);
+  border-radius: 22px;
+}
+.btn-text4:hover {
+  background-color: var(--light-purple);
+  border-radius: 22px;
+}
+.btn-text5:hover {
+  background-color: var(--light-purple);
+  border-radius: 22px;
+}
+
+h2:hover {
+  color: #a48dac;
+}
+
+.btn:hover {
+  background-color: var(--light-purple);
+}
+
+.btn-text {
+  color: #d4ccd5;
+  font-family: Kavoon;
+  font-size: 36px;
+}
+.text a {
+  color: #d4ccd5;
+  font-family: Kavoon;
+  font-size: 36px;
+}
+
+.btn {
+  background-color: #a48dac;
+  color: #d4ccd5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  right: -745px;
+  top: -200px;
+}
+
+button {
+  border-radius: 20px;
+  border: 0;
+  color: #a48dac;
+  cursor: pointer;
+  padding: 10px 25 px;
+  position: relative;
+  right: -228px;
+  top: 125px;
+}
+
+button:active {
+  opacity: 0.8;
+}
+.modal {
+  background-color: #a48dac;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all0.3s ease-in-out;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4ccd5;
+  font-family: Kavoon;
+  font-size: 36px;
+  padding: 233px;
+}
+
+.modal.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal-inner {
+  background-color: fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 15px 25px;
+  text-align: center;
+  width: 380px;
+}
+
+.modal-inner h2 {
+  margin: 0;
+}
+
+.modal-inner p {
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .element {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+/* For screens larger than 600px */
+@media only screen and (min-width: 601px) {
+  .element {
+    width: 50%;
+    font-size: 18px;
+  }
+}
+
+/*I like beeing honest, so I'll just say it. I have no idea how the media query works, so I read a few articles about it and tried my best, I am aware this will probably not work as a media query*/
